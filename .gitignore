@@ -1,0 +1,34 @@
+# Ignore bundler config.
+/.bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+
+# Ignore other unneeded files.
+database.yml
+doc/
+test/
+*.swp
+*~
+.project
+.DS_Store
+.idea
+.rvmrc
+.ruby-*
+.secret
+.idea/proalab_rails.iml
+
+log/development.log
+
+tmp/cache/assets/development/sprockets/13fe41fee1fe35b49d145bcc06610705
+
+tmp/cache/assets/development/sprockets/d6c7ce3ac277094b04690a43947ede22
+
+tmp/cache/assets/development/sprockets/d771ace226fc8215a3572e0aa35bb0d6
+
+tmp/cache/assets/development/sprockets/edbf63d87f211c17de329b8a471a7caf

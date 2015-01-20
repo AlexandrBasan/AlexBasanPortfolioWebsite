@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+</head>
+<div class="htmlmail-body">
+  <h1><%= t ('newsletters.new_email_proalab_rails') %></h1>
+
+  <p style="text-align: justify; padding:5px; font-size:12px;"><%= t ('contacts.name') %>: <%= @contact.name %></p>
+  <p style="text-align: justify; padding:5px; font-size:12px;"><%= t ('contacts.email') %>: <%= @contact.email %></p>
+  <p style="text-align: justify; padding:5px; font-size:12px;"><%= t ('contacts.phone') %>: <%= @contact.phone %></p>
+  <p style="text-align: justify; padding:5px; font-size:12px;"><%= t ('contacts.content') %>: <%= @contact.content %></p>
+  <p style="text-align: justify; padding:5px; font-size:12px;"><%= t ('user.created_at') %>: <%= @contact.created_at %></p>
+
+</div>
+</html>

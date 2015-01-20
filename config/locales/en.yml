@@ -1,0 +1,186 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  not_found: "-"
+  full_site: "Full site"
+  mobile_site: "Mobile site"
+  main:
+    start_teleporting_today: "We create the best Ruby On Rails sites and projects"
+    small_about: "We develop perfect sites and SaaS projects using Ruby On Rails. Our company creates projects for startups, e-commerce, small business solutions and many others."
+  menu:
+    team: "Team"
+    whom_is_our_service_for: "Projects"
+    sites: "Sites"
+    saas_solution: "SaaS Solutions"
+    old_site_projects: "Projects on our old site"
+    old_site: "Our old site"
+    mobile_projects: "Mobile projects"
+    more_projects: "More projects..."
+    more_sites: "More sites..."
+    developers: "Hire your Ruby developer"
+    blog: "Блог"
+    contact_us: "Contact us"
+    language: "Language"
+    contact_us_f: "CONTACT US"
+  contact:
+    get_social: "Get social"
+    say_hello: "Say hello!"
+    contact: "Contact us"
+    contact_text: "We like to create things with fun, open-minded people. Feel free to say hello! We'll respond as soon as
+                    possible."
+  blog:
+    categories: "Categories"
+    created_at: "Created at"
+    all: "All"
+    news: "News"
+    specials: "Specials"
+    teleport_saas_system: "Teleport SaaS System"
+    companies_news: "Companies news"
+    latest_news: "Latest news"
+    new_blog: "New blog"
+    title: "Title"
+    content: "Content"
+    language: "Language"
+    content_type: "Content type"
+  button:
+    delete: "Delete"
+    show: "Show"
+    edit: "Edit"
+    ok: "OK"
+    back: "Back"
+  user:
+    all_users: "All users"
+    name: "Name"
+    e-mail: "E-mail"
+    role: "Role"
+    created_at: "Created at"
+  admin:
+    admin_management: "Admin management"
+    users: "Users"
+    new_blog: "New blog"
+    mail: "Send new e-mail"
+    site_desctop_version_check: "Site full version"
+    site_mobile_version_check: "Site mobile version"
+  newsletters:
+    listing_newsletters: "Listing newsletters"
+    to: "To"
+    blog: "Blog"
+    subject: "Subject"
+    language: "Language"
+    blog_title: "Blog title"
+    blog_content: "Blog content"
+    status: "Status"
+    new: "New newsletter"
+    edit: "Editing newsletter"
+    created_at: "Created at"
+    subject_news: "Proalab"
+    subject_specials: "Proalab"
+    subject_saas_news: "Proalab"
+    subject_companies_news: "Proalab"
+    new_email_proalab_rails: "New e-mail Proalab Rails"
+  contacts:
+    listing_contacts: "Listing contacts"
+    name: "Name"
+    email: "E-mail"
+    phone: "Phone"
+    content: "Message"
+    company_name: "Proalab LLC"
+    #phone_c: "+38 044 384 4160 | +38 067 466 9359"
+    phone_c: "+38 067 466 9359"
+    address_c: "Akademika Krymskogo str. 27A, Kiev, Ukraine"
+  team:
+    alexandr_basan: "Alexandr Basan"
+    evgen_peluhnya: "Evgen Peluhnya"
+    olga_yaroshenko: "Olga Yaroshenko"
+    kirill_koreshkof: "Kirill Koreshkof"
+    andrey_kolesnik: "Andrey Kolesnik"
+    anna_pisanec: "Anna Pisanec"
+    ceo: "CEO"
+    developer: "Developer"
+    designer: "Designer"
+    product_manager: "Product manager"
+    text_basan: "My name is Alexandr Basan and I am CEO & Founder Proalab company. Our company have created more then 50 Rails and Mobile projects."
+    text_peluhnya: "Hi, I'm Evgeniy Peluhna. I am a developer who specializes on Ruby, Rails, HTML, AJAX. I've created 27 projects using Rails."
+    text_yaroshenko: "Hi, I'm Olga Yaroshenko. I am a developer who specializes on CSS, HTML and Javascript. I'm excited to work more and learn more about design."
+    text_koreshkof: "I am Kirill Koreshkof, a web designer who loves designing and building websites. I founded this company to help bring web design to those who need it."
+    text_kolesnik: "My name is Andrey Kolesnic and I am product manager in Proalab. I love project management, preparation of technical specifications, difficult tasks and many others."
+    text_pisanec: "My name is Anna Pisanec. I work mainly as a graphic designer, designing beautiful web elements, buttons, backgrounds, and really anything that is needed."
+  developers:
+    main: "Looking for Ruby on Rails developer for your project?"
+    text: "We have a team of Ruby on Rails developers that you can hire for your company or for your project. If you need a developer with great experience of implementing complex projects, we will be happy to assist you in this matter."
+    pay_system: "We offer you a Ruby on Rails developers to pay for the project, the daily form of payment or pay by the hour."
+  saas:
+    teleport: "saas.teleport-ds.com"
+    teleport_saas_info: "Logistic SaaS System. Teleport Delivery Service - opens new opportunities for logistics, e-commerce and supply management."
+    our_latest_saas_solutions: "Our latest SaaS solutions"
+    cba_saas_info: "This is CBA corporative SaaS System. CBA has experience in the independent evaluation by the International Valuation Standards (IVS) to International Financial Reporting Standards (IFRS)"
+    cba_appraiser: "cba-appraiser.herokuapp.com"
+    cba_appraiser_info: "SaaS System for automatic real estate appraisal, property valuation or land valuation."
+  sites:
+    teleport: "www.teleport-ds.com"
+    teleport_info: "Teleport Delivery Service - opens new opportunities for logistics, e-commerce and supply management."
+    law_assistant: "www.law-assistant.com"
+    law_assistant_info: "Law Assistant is a grate project in law, bookkeeping and IT outsourcing."
+    our_latest_sites: "Our latest sites"
+    medical_records_info: "Cloud based service that allows people to store their medical and health records online and easily share them with doctors."
+    dent_saas_info: "This is service is a powerful, web-based dental practice management software application, which can be configured to the needs of any type of dental practice."
+  mobile_projects:
+    our_latest_mobile_projects: "Our latest mobile projects"
+  technology:
+    technologies: "Technologies:"
+    tech: "Technologies that we use"
+    ruby: "Ruby 2.1.0"
+    rails: "Rails 4.0.3"
+    ruby_2_1_3: "Ruby 2.1.3"
+    rails_4_1_5: "Rails 4.1.5"
+    bootstrap: "Bootstrap 3.1.1"
+    ajax: "Ajax"
+    jquery: "Jquery 1.11.1"
+    javascript: "JavaScript"
+    coffeescript: "CoffeeScript"
+    i18n: "I18n"
+    pg: "PostgreSQL"
+    heroku: "Heroku"
+    amazon_aws: "Amazon Web Services"
+    amazon_ec2: "Amazon EC2"
+    amazon_s3: "Amazon S3"
+    google_maps_api: "Google Maps API v.3"
+    drupal: "Drupal"
+    php: "PHP"
+    wordpress: "Wordpress"
+    custom_theme: "Custom theme"
+    modules: "Modules"
+    node_js: "Node JS"
+    facebook: "Facebook API"
+    twitter: "Twitter API"
+    google_api: "Google API"
+    google_currency: "Google Currency API"
+    new_relic: "New Relic Server Monitoring"
+    metro_ui_2_0: "Metro UI CSS 2.0"
+    microsoft_msdn: "Microsoft MSDN (Import, export files)"
+    mysql: "MySQL"
+    rspec: "RSpec"
+    capybara: "Capybara"
+    factory_girl: "Factory girl"
+  content:
+    tags: "Ruby, Ruby on Rails, Rails, sites on ruby on rails, sites on rails, saas on rails, saas on ruby on rails, rails programmers, rails projects, proalab, alexandr basan, ruby projects, ruby on rails projects, ruby developers, rails developers, rails e-commerce, ruby developer pay by hour, rails developer pay by hour, ruby developer for project, rails developer for project, rental Ruby developer, rental Rails Developer, TOP Ruby On Rails developers, hire ruby developer, hire rails developer"
+

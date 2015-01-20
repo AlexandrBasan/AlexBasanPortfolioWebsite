@@ -1,0 +1,186 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+ru:
+  not_found: "-"
+  full_site: "Полная версия сайта"
+  mobile_site: "Мобильная версия сайта"
+  main:
+    start_teleporting_today: "Мы создаем лучшие проекты на Ruby On Rails"
+    small_about: "Мы разрабатываем качественные сайты и SaaS решения используя Ruby On Rails. Мы создали множество решений для стартапов, проектов электронной коммерции, малого бизнеса и многие другие."
+  menu:
+    team: "Наша команда"
+    whom_is_our_service_for: "Наши проекты"
+    sites: "Сайты"
+    saas_solution: "SaaS решения"
+    old_site_projects: "Проекты на нашем старом сайте"
+    old_site: "Наш старый сайт"
+    mobile_projects: "Мобильные проекты"
+    more_projects: "Больше проектов..."
+    more_sites: "Больше сайтов..."
+    developers: "Разработчики на Ruby в аренду"
+    blog: "Блог"
+    contact_us: "Контакты"
+    language: "Язык"
+    about_us_f: "О НАС"
+    contact_us_f: "КОНТАКТЫ"
+  contact:
+    get_social: "Мы в социальных сетях"
+    say_hello: "Свяжитесь с нами!"
+    contact: "Контакты"
+    contact_text: "Если Вы хотите качественный и красивый сайт на Ruby On Rails или всегда мечтали о собственном стартапе - Напишите нам."
+  blog:
+    categories: "Категории"
+    created_at: "Created at"
+    all: "Все"
+    news: "Новости"
+    specials: "Акции"
+    analytics: "Статьи"
+    companies_news: "Новости компаний"
+    latest_news: "Последние новости"
+    new_blog: "Новая новость"
+    title: "Название"
+    content: "Контент"
+    language: "Язык"
+    content_type: "Категория"
+  button:
+    delete: "Удалить"
+    show: "Показать"
+    edit: "Редактировать"
+    ok: "OK"
+    back: "Назад"
+  user:
+    all_users: "Все пользователи"
+    name: "Имя"
+    e-mail: "E-mail"
+    role: "Роль"
+    created_at: "Created at"
+  admin:
+    admin_management: "Управление сайтом"
+    users: "Пользователи"
+    new_blog: "Новая новость"
+    mail: "Отправить e-mail"
+    site_desctop_version_check: "Site full version"
+    site_mobile_version_check: "Мобильная версия сайта"
+    contact: "Contacts"
+  newsletters:
+    listing_newsletters: "Список рассылок"
+    to: "Кому"
+    blog: "Блог"
+    subject: "Тема"
+    language: "Язык"
+    blog_title: "Название блога"
+    blog_content: "Контент блога"
+    status: "Статус"
+    new: "Новая рассылка"
+    edit: "Редактировать рассылку"
+    created_at: "Создано"
+    subject_news: "Proalab"
+    subject_specials: "Proalab"
+    analytics: "Proalab"
+    subject_companies_news: "Proalab"
+    new_email_proalab_rails: "New e-mail Proalab Rails"
+  contacts:
+    listing_contacts: "Listing contacts"
+    name: "Имя"
+    email: "E-mail"
+    phone: "Телефон"
+    content: "Сообщение"
+    company_name: "Proalab LLC"
+    #phone_c: "+38 044 384 4160 | +38 067 466 9359"
+    phone_c: "+38 067 466 9359"
+    address_c: "Украина, Киев, ул. Академика Крымского, 27А"
+  team:
+    alexandr_basan: "Александр Басан"
+    evgen_peluhnya: "Евгений Пелюхня"
+    olga_yaroshenko: "Ольга Ярошенко"
+    kirill_koreshkof: "Кирилл Корешков"
+    andrey_kolesnik: "Андрей Колесник"
+    anna_pisanec: "Анна Писанец"
+    ceo: "CEO"
+    developer: "Разработчик"
+    designer: "Дизайнер"
+    product_manager: "Менеджер проектов"
+    text_basan: "Меня зовут Александр Басан и я CEO и Учередитель компании Proalab. Наша компания создала более 50 проектов на Rails."
+    text_peluhnya: "Меня зовут Евгений Пелюхня и я разработчик, который специализируется на Ruby, Rails, HTML, AJAX. Я создал 27 проектов используя Ruby On Rails"
+    text_yaroshenko: "Привет, я Ольга Ярошенко. Я специализируюсь на CSS, HTML и Javascript. Мне нравится работать с дизайном и воплощать в жизнь смелые идеи."
+    text_koreshkof: "Меня зовут Кирилл Корешков и я веб дизайнер которому нравится делать красивые сайты. Мир выглядит ужасно когда вокруг нас нет красоты и гармонии."
+    text_kolesnik: "Я - Андрей Колесник и я работаю менеджером проектов в компании Proalab. Я занимаюсь подготовкой технических заданий и люблю сложные задачи."
+    text_pisanec: "Привет я Анна Писанец. Я работаю графическим дизайнером и люблю создавать красивые графические элементы и увлекаюсь фотографией."
+  developers:
+    main: "Вам нужен разработчик на Ruby on Rails для Вашего проекта, на день или с оплатой по часам?"
+    text: "У нас есть команда разработчиков на Ruby on Rails, которых Вы можете арендовать для Вашей компании или для Вашего проекта. Если Вам нужен начинающий разработчик или разработчик с большим стажем реализации крупных и сложных проектов, мы с радостью поможем Вам в этом вопросе."
+    pay_system: "Мы предлагаем Вам разработчиков на Ruby on Rails с оплатой по проекту, дневной формой оплаты или с оплатой почасово."
+  saas:
+    teleport: "saas.teleport-ds.com"
+    teleport_saas_info: "Система автоматизации логистики. Teleport открывает новые возможности для логистики, электронной коммерции и управления поставками."
+    our_latest_saas_solutions: "Наши последние SaaS решения"
+    cba_saas_info: "Корпоративная SaaS система проведения оценки. СВА имеет опыт проведения независимой оценки по Международными стандартами оценки (МСО) для международных стандартов финансовой отчетности (МСФО)."
+    cba_appraiser: "cba-appraiser.herokuapp.com"
+    cba_appraiser_info: "SaaS система для проведения автоматической оценки недвижимости и земли."
+  sites:
+    teleport: "www.teleport-ds.com"
+    teleport_info: "Teleport открывает новые возможности для логистики, электронной коммерции и управления поставками."
+    law_assistant: "www.law-assistant.com"
+    law_assistant_info: "Law Assistant это отличный проект в сфере юридического и бухгалтерского аутсорсинга."
+    our_latest_sites: "Наши последние сайты"
+    medical_records_info: "Сервис который позволяет людям хранить их медицинские записи online и легко обмениваться ими с докторами."
+    dent_saas_info: "Это сервис является мощным, веб-управляемым стоматологическим программным обеспечением, которые могут быть сконфигурированы для нужд любого типа стоматологической практики."
+  mobile_projects:
+    our_latest_mobile_projects: "Our latest mobile projects"
+  technology:
+    technologies: "Технологии:"
+    tech: "Технологии которые мы используем"
+    ruby: "Ruby 2.1.0"
+    rails: "Rails 4.0.3"
+    ruby_2_1_3: "Ruby 2.1.3"
+    rails_4_1_5: "Rails 4.1.5"
+    bootstrap: "Bootstrap 3.1.1"
+    ajax: "Ajax"
+    jquery: "Jquery 1.11.1"
+    javascript: "JavaScript"
+    coffeescript: "CoffeeScript"
+    i18n: "I18n"
+    pg: "PostgreSQL"
+    heroku: "Heroku"
+    amazon_aws: "Amazon Web Services"
+    amazon_ec2: "Amazon EC2"
+    amazon_s3: "Amazon S3"
+    google_maps_api: "Google Maps API v.3"
+    drupal: "Drupal"
+    php: "PHP"
+    wordpress: "Wordpress"
+    custom_theme: "Кастомная тема"
+    modules: "Модули"
+    node_js: "Node JS"
+    facebook: "Facebook API"
+    twitter: "Twitter API"
+    google_api: "Google API"
+    google_currency: "Google Currency API"
+    new_relic: "Мониторинг сервера New Relic"
+    metro_ui_2_0: "Metro UI CSS 2.0"
+    microsoft_msdn: "Microsoft MSDN (импорт, экспорт файлов)"
+    mysql: "MySQL"
+    rspec: "RSpec"
+    capybara: "Capybara"
+    factory_girl: "Factory girl"
+  content:
+    tags: "Ruby, Ruby on Rails, Rails, сайты на ruby on rails, сайт на ruby on rails, сайт на rails, saas на rails, saas на ruby on rails, rails программист, проеты на rails, proalab, alexandr basan, проееты на ruby, проекты на ruby on rails, разработчик на ruby, разработчики на ruby, rails разработчики, проекты для e-commerce на rails, разработчик на Ruby по часово, разработчик на Rails по часово, rails разработчик для прокта, ruby разработчик для проекта, аренда Ruby разработчика, аренда Rails разработчика, Топ разработчики на Ruby On Rails"

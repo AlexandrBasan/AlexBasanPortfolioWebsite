@@ -1,0 +1,44 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+<%= form_for(@contact) do |f| %>
+  <% if @contact.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@contact.errors.count, "error") %> prohibited this contact from being saved:</h2>
+
+      <ul>
+      <% @contact.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+    <div class="field">
+      <%= f.label (t 'contacts.name') %><br>
+      <%= f.text_field :name, class: "input-block-level footer-input" %>
+    </div>
+  <div class="field">
+    <%= f.label (t 'contacts.email') %><br>
+    <%= f.text_field :email, class: "input-block-level footer-input" %>
+  </div>
+  <div class="field">
+    <%= f.label (t 'contacts.phone') %><br>
+    <%= f.number_field :phone, class: "input-block-level footer-input" %>
+  </div>
+  <div class="field">
+    <%= f.label (t 'contacts.content') %><br>
+    <%= f.text_area :content, class: "input-block-level footer-input" %>
+  </div>
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="contact">
+          <%= f.submit (t 'button.ok'), class: "btn btn-sm btn-success" %>
+        </div>
+      </div>
+    </div>
+
+<% end %>
+</div>
+      </div>
+    </div>
