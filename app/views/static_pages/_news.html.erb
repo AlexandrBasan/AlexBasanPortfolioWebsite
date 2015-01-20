@@ -1,0 +1,25 @@
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h3 class="section-title">Newsletter</h3>
+        <div class="section-title-border"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 text-center wow fadeInDown animated" data-wow-duration="0.7s" data-wow-delay="0s" style="visibility: visible; -webkit-animation: fadeInDown 0.7s 0s;">
+        <p>Maecenas vel est laoreet, molestie risus ut.</p>
+        <form class="form-inline signup bv-form text-center" action="php/signupForm.php" role="form" id="signupForm" novalidate="novalidate">
+          <div class="form-group has-feedback">
+            <input type="email" name="email" class="form-control" placeholder="Email address" data-bv-field="email"><i class="form-control-feedback" data-bv-icon-for="email" style="display: none; top: 0px;"></i>
+            <small data-bv-validator="notEmpty" data-bv-validator-for="email" class="help-block" style="display: none;">Email cannot be empty</small><small data-bv-validator="emailAddress" data-bv-validator-for="email" class="help-block" style="display: none;">The input is not a valid email address</small>
+            <small class="help-block" data-bv-validator="notEmpty" data-bv-for="email" data-bv-result="NOT_VALIDATED" style="display: none;">Email cannot be empty</small><small class="help-block" data-bv-validator="emailAddress" data-bv-for="email" data-bv-result="NOT_VALIDATED" style="display: none;">The input is not a valid email address</small></div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-theme ladda-button" data-style="expand-left"><span class="ladda-label">Subscribe</span></button>
+          </div>
+          <input type="hidden" value="">
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
