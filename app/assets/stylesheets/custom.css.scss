@@ -600,6 +600,8 @@ a.btn.btn-1.btn-xs.btn-success.signup {
   transition: border-color .5s;
 }
 
+
+// Mouse down animation for first page //
 .mouse-icon {
   position: relative;
   border: 2px solid #fff;
@@ -622,6 +624,7 @@ a.btn.btn-1.btn-xs.btn-success.signup {
   margin-right: auto;
 }
 
+
 .mouse-icon .wheel {
   -webkit-animation-name: drop;
   -webkit-animation-duration: 1s;
@@ -636,6 +639,22 @@ a.btn.btn-1.btn-xs.btn-success.signup {
   animation-iteration-count: infinite;
   animation-play-state: running;
 }
+
+
+@-webkit-keyframes drop	{
+  0%   { top:5px;  opacity: 0;}
+  30%  { top:10px; opacity: 1;}
+  100% { top:25px; opacity: 0;}
+}
+
+@keyframes drop	{
+  0%   { top:5px;  opacity: 0;}
+  30%  { top:10px; opacity: 1;}
+  100% { top:25px; opacity: 0;}
+}
+// Mouse down animation for first page //
+
+
 
 // Custom theme - http://choco-pixel.com/SeventyThree-1.1/Personal/index.html
 
