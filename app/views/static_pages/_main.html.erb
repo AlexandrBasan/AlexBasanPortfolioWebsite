@@ -1,29 +1,34 @@
-<div id="myCarousel" class="carousel slide" data-ride="carousel" style="background:#000000;">
-  <div class="container" style="position: absolute; width: 100%;
-          z-index: 999;
-          padding-top: 25%;">
-    <div class="row">
-      <div style="color: #ffffff" class="text-center">
-        <div class="col-md-12"><h1><%= (t 'main.start_teleporting_today') %></h1></div>
-        <div class="col-md-6 col-md-offset-3"><p><%= (t 'main.small_about') %></p></div>
-        <!--<div class="col-md-12"><%= link_to (I18n.t 'menu.old_site'), 'http://old.proalab.com', :target => "_blank",
-                    class: "btn btn-lg btn-success" %></div>-->
+    <section class="main" id="home" style="position: relative;">
+      <div class="page">
+        <div class="wrapper">
+          <div class="container">
+            <div style="position: relative; z-index: 2;">
+            <img src="http://choco-pixel.com/SeventyThree-1.1/Personal/assets/img/portraits/1@2x.jpg" class="img-responsive" style="margin: 0 auto;" width="220" height="160">
+
+            <h1 class="heading">Alexandr Basan</h1>
+            <p>
+              Senior Web Developer / Developer / Project manager / CEO / CTO
+            </p>
+            </div>
+          </div>
+
+          <%= link_to (root_path) do %>
+              <div class="mouse-icon">
+                <div class="wheel"></div>
+              </div>
+          <% end %>
+
+        </div>
       </div>
+    </section>
+    <div style="position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: 1;
+            opacity: .3;
+            filter: alpha(opacity=10);
+            overflow: hidden;">
+      <img src="/assets/big-1.jpg" alt="Treble">
     </div>
-  </div>
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="item bg bg1 active" style="opacity: 0.5;">
-    </div>
-    <div class="item bg bg2" style="opacity: 0.5;">
-    </div>
-    <div class="item bg bg1" style="opacity: 0.5;">
-    </div>
-  </div>
-  <a style="z-index: 999;" class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-  <a style="z-index: 999;" class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-</div>

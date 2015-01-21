@@ -106,6 +106,10 @@ p {
   height: 52px;
 }
 
+.navbar-fixed-top {
+  z-index: 9999!important;
+}
+
 .navbar .nav.pull-right {
   float: right;
   margin-right: 0;
@@ -594,6 +598,43 @@ a.btn.btn-1.btn-xs.btn-success.signup {
   border: 4px solid rgba(255, 255, 255, .4);
   -webkit-transition: border-color .5s;
   transition: border-color .5s;
+}
+
+.mouse-icon {
+  position: relative;
+  border: 2px solid #fff;
+  border-radius: 16px;
+  height: 50px;
+  width: 30px;
+  margin: 0 auto;
+  display: block;
+  z-index: 10;
+}
+
+.mouse-icon .wheel {
+  position: relative;
+  border-radius: 10px;
+  background: #fff;
+  width: 4px;
+  height: 10px;
+  top: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mouse-icon .wheel {
+  -webkit-animation-name: drop;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-play-state: running;
+  animation-name: drop;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
 }
 
 // Custom theme - http://choco-pixel.com/SeventyThree-1.1/Personal/index.html
