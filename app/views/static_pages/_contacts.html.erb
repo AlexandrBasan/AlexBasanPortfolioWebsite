@@ -7,42 +7,64 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-6 wow fadeInLeft animated" data-wow-duration="0.7s" data-wow-delay="0s" style="visibility: visible; -webkit-animation: fadeInLeft 0.7s 0s;">
-        <p>
-          <strong>Integer suscipit</strong> gravida felis quis ornare.
-          Pellentesque consectetur dui eu nulla vestibulum,
-          ac euismod diam auctor.
-        </p>
-        <ul class="list-contacts">
-          <li><i class="fa fa-phone"></i> (123) 456-7890</li>
-          <li><i class="fa fa-mobile-phone"></i> (123) 987-6543</li>
-          <li><i class="fa fa-map-marker"></i> 1795 Folsom Ave, Suite 600<br> San Francisco, CA 94107</li>
-          <li><i class="fa fa-envelope-o"></i> <a href="mailto:info@seventythree.com">info@seventythree.com</a></li>
-        </ul>
+      <div class="col-md-4">
+      <div class="span5 offset1">
+        <h3><%= (t 'contacts.company_name') %></h3>
+
+        <div class="media">
+          <div class="social-icons sicon-white pull-left">
+            <img alt="" src="/assets/phone-white.png" style="width: 23px; height: 23px; margin-top: -4px;">
+            <%= image_tag("ua.png", alt: "UA", style: "margin-top: -4px; margin-left:10px;", title: "My phone number in Ukraine")%>
+          </div>
+          <div class="media-body smallFontBy08">
+            <%= (t 'contacts.phone_c') %>
+
+          </div>
+        </div>
+        <div class="media">
+          <div class="social-icons sicon-white pull-left">
+            <img alt="" src="/assets/phone-white.png" style="width: 23px; height: 23px; margin-top: -4px;">
+            <%= image_tag("nz.png", alt: "NZ", style: "margin-top: -4px; margin-left:10px;", title: "My phone number in New Zealand")%>
+          </div>
+          <div class="media-body smallFontBy08">
+            <%= (t 'contacts.phone_c') %>
+          </div>
+        </div>
+        <div class="media">
+          <div class="social-icons sicon-white pull-left">
+            <img alt="" src="/assets/mail-white@2x.png" style="width: 30px; height: 30px; margin-top: -5px;">
+          </div>
+          <div class="media-body smallFontBy08">
+            alexandr.basan@gmail.com
+          </div>
+        </div>
+        <div class="media">
+          <div class="social-icons sicon-white pull-left">
+            <img alt="" src="/assets/earth-white@2x.png" style="width: 30px; height: 30px; margin-top: -3px;">
+          </div>
+          <div class="media-body smallFontBy08">
+            alexandr-basan.proalab.com
+          </div>
+        </div>
+
       </div>
-      <div class="col-sm-6 wow fadeInRight animated" data-wow-duration="0.7s" data-wow-delay="0s" style="visibility: visible; -webkit-animation: fadeInRight 0.7s 0s;">
-        <form class="form-horizontal bv-form" action="assets/php/contactForm.php" method="post" role="form" id="contactForm" novalidate="novalidate">
-          <div class="form-group has-feedback">
-            <div class="col-sm-6">
-              <input type="text" name="name" class="form-control" placeholder="Name" data-bv-field="name"><i class="form-control-feedback" data-bv-icon-for="name" style="display: none; top: 0px;"></i>
-              <small class="help-block" data-bv-validator="notEmpty" data-bv-for="name" data-bv-result="NOT_VALIDATED" style="display: none;">Name cannot be empty</small><small class="help-block" data-bv-validator="stringLength" data-bv-for="name" data-bv-result="NOT_VALIDATED" style="display: none;">Name must be more than 6 and less than 30 characters long</small><small class="help-block" data-bv-validator="regexp" data-bv-for="name" data-bv-result="NOT_VALIDATED" style="display: none;">Name can only consist alphabetical characters</small></div>
-            <div class="col-sm-6">
-              <input type="text" name="contactEmail" class="form-control" placeholder="Email" data-bv-field="contactEmail"><i class="form-control-feedback" data-bv-icon-for="contactEmail" style="display: none; top: 0px;"></i>
-              <small class="help-block" data-bv-validator="notEmpty" data-bv-for="contactEmail" data-bv-result="NOT_VALIDATED" style="display: none;">Email cannot be empty</small><small class="help-block" data-bv-validator="emailAddress" data-bv-for="contactEmail" data-bv-result="NOT_VALIDATED" style="display: none;">The input is not a valid email address</small></div>
+    </div>
+      <div class="col-md-4">
+        <div class="span5 offset1">
+          <h3><%= (t 'contact.get_social') %></h3>
+          <div class="social-icons sicon-white bordered">
+            <a href="https://www.facebook.com/alexandr.basan" target="_blank" class="sicon-facebook"><img alt="" src="/assets/facebook-white@2x.png" style="width: 48px; height: 48px; border: 1px solid white;"></a>
+            <a href="https://plus.google.com/+AleksandrBasan/posts" target="_blank" class="sicon-youtube"><img alt="" src="/assets/google-plus-white@2x.png" style="width: 48px; height: 48px; border: 1px solid white;"></a>
+            <a href="https://twitter.com/alexandrbasan" target="_blank" class="sicon-twitter"><img alt="" src="/assets/twitter-white@2x.png" style="width: 48px; height: 48px; border: 1px solid white;"></a>
+            <a href="https://www.linkedin.com/in/alexandrbasan" target="_blank" class="sicon-linkedin"><img alt="" src="/assets/linkedin-white@2x.png" style="width: 48px; height: 48px; border: 1px solid white;"></a>
           </div>
-          <div class="form-group has-feedback">
-            <div class="col-sm-12">
-              <textarea name="message" class="form-control" rows="8" placeholder="Message" data-bv-field="message"></textarea><i class="form-control-feedback" data-bv-icon-for="message" style="display: none; top: 0px;"></i>
-              <small class="help-block" data-bv-validator="notEmpty" data-bv-for="message" data-bv-result="NOT_VALIDATED" style="display: none;">Message cannot be empty</small></div>
           </div>
-          <div class="form-group">
-            <div class="col-sm-12">
-              <button type="submit" class="btn btn-theme ladda-button" data-style="expand-left">
-                <span class="ladda-label">Submit</span>
-              </button>
-            </div>
+        </div>
+      <div class="col-md-4">
+        <div class="span5 offset1">
+          <h3><%= (t 'contact.get_social') %></h3>
+                Copyright © 2014. All rights reserved.
           </div>
-        </form>
       </div>
     </div>
   </div>

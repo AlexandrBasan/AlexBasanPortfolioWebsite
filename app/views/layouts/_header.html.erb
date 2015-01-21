@@ -1,30 +1,13 @@
-<header class="navbar navbar-default navbar-fixed-top navbar-inverse">
+<header class="navbar navbar-fixed-top navbar-inverse">
   <div class="navbar-inner">
     <div class="container">
-      <%= link_to image_tag("/assets/proalablogo_51_69.png", alt: "Proalab"), root_path + "#top", :class => "brand" %>
-      <%= link_to "Proalab", root_path, id: "logo" %>
+      <%= link_to "Alexandr Basan official site", root_path, id: "logo" %>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
         <ul class="nav navbar-nav pull-right">
           <li id="fat-menu" class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <%= (I18n.t 'menu.whom_is_our_service_for') %> <b class="caret"></b>
-            </a>
-            <ul class="dropdown-menu">
-              <li><%= link_to (I18n.t 'menu.sites'), root_path + "#rails_sites" %></li>
-              <li class="divider"></li>
-              <li><%= link_to (I18n.t 'menu.saas_solution'), root_path + "#rails_saas" %></li>
-              <li class="divider"></li>
-              <li><%= link_to (I18n.t 'menu.mobile_projects'), mobile_projects_path %></li>
-              <!--<li><%= link_to (I18n.t 'menu.old_site_projects'), 'http://proalab.com', :target => "_blank" %></li>-->
-              <li class="divider"></li>
-              <li><%= link_to (I18n.t 'technology.tech'), root_path + "#technologies" %></li>
-            </ul>
+            <%= link_to (I18n.t 'skills.skills'), root_path + "#skills" %>
           </li>
-          <li><%= link_to (I18n.t 'menu.developers'), root_path + "#developers" %></li>
-          <li><%= link_to (I18n.t 'menu.team'), root_path + "#team" %></li>
           <li><%= link_to (I18n.t 'menu.contact_us'), root_path + "#contact_us" %></li>
-          <!--<li><%= link_to "Home", root_path %></li>-->
-          <!--<li><%= link_to "Help", root_path %></li>-->
           <li id="fat-menu" class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <% if I18n.locale == :ru %>

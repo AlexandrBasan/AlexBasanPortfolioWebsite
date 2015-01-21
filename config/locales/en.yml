@@ -146,6 +146,7 @@ en:
   mobile_projects:
     our_latest_mobile_projects: "Our latest mobile projects"
   technology:
+    all: "I use following technologies: Ruby, Rails, Bootstrap, Metro UI CSS 2.0, JavaScript, Ajax, Jquery, AngularJS, BackboneJS, CoffeeScript, I18n, PostgreSQL, MySQL, Heroku, Amazon S3, Google Maps API v.3, Facebook API, Twitter API, Google API, Google Currency API, New Relic Server Monitoring, Node JS, Microsoft MSDN, RSpec, Capybara."
     technologies: "Technologies:"
     tech: "Technologies that we use"
     ruby: "Ruby 2.1.0"
@@ -183,4 +184,8 @@ en:
     factory_girl: "Factory girl"
   content:
     tags: "Ruby, Ruby on Rails, Rails, sites on ruby on rails, sites on rails, saas on rails, saas on ruby on rails, rails programmers, rails projects, proalab, alexandr basan, ruby projects, ruby on rails projects, ruby developers, rails developers, rails e-commerce, ruby developer pay by hour, rails developer pay by hour, ruby developer for project, rails developer for project, rental Ruby developer, rental Rails Developer, TOP Ruby On Rails developers, hire ruby developer, hire rails developer"
+  skills:
+    skills: "Skills"
+    header: "Short"
+    information: "I am efficient and highly motivated individual with 11+ years working experience in the IT Industry."
 

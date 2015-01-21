@@ -67,11 +67,10 @@ p {
 
 /* header */
 #logo {
-  margin-top: 4px;
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: white;
+  color: #999999;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 12px;
@@ -82,6 +81,10 @@ p {
     color: white;
     text-decoration: none;
   }
+}
+
+.nav > li > a {
+  padding: 12px 15px 5px 35px!important;
 }
 
 .navbar .brand {
