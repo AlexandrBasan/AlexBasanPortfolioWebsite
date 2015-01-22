@@ -8,61 +8,71 @@
     </div>
     <div class="row">
       <div class="col-sm-12">
-        <p>Fusce convallis vulputate diam, eu dictum lacus imperdiet nec. Cras ac viverra nunc, ac dictum arcu. In pulvinar semper odio eu auctor. Cras sed mauris ut dolor porta feugiat.</p>
-        <ul class="v-timeline mt50">
+        <!--<p>Fusce convallis vulputate diam, eu dictum lacus imperdiet nec. Cras ac viverra nunc, ac dictum arcu. In pulvinar semper odio eu auctor. Cras sed mauris ut dolor porta feugiat.</p>-->
+        <ul class="v-timeline">
           <li>
-            <h3 class="v-heading wow fadeInDown animated" data-wow-duration="0.7s" data-wow-delay="0s" style="visibility: visible; -webkit-animation: fadeInDown 0.7s 0s;"><i class="fa fa-paper-plane-o"></i> Work experience</h3>
+            <h3 class="v-heading wow fadeInDown"><i class="fa fa-graduation-cap"></i> <%= (t 'cv.work_experience') %></h3>
           </li>
           <li>
-            <time class="v-time wow fadeInLeft animated" data-wow-duration="0.7s" data-wow-delay="0s" datetime="2013-04-15 13:15" style="visibility: visible; -webkit-animation: fadeInLeft 0.7s 0s;"><span>2013 - present</span></time>
-            <div class="v-icon" data-toggle="collapse" data-target="#toggle-1"><i class="fa fa-minus"></i></div>
-            <div class="v-label wow fadeInRight animated" data-wow-duration="0.7s" data-wow-delay="0s" style="visibility: visible; -webkit-animation: fadeInRight 0.7s 0s;">
-              <h4><a href="#" data-toggle="collapse" data-target="#toggle-1">Donec pulvinar elementum</a></h4>
-              <p id="toggle-1" class="collapse in">Sed pretium aliquet libero non luctus. Mauris quis ex at velit pharetra aliquet at at velit. Curabitur nec facilisis nisl.</p>
+            <time class="v-time wow fadeInLeft"><span>Dec 2014 - Jan 2015</span></time>
+            <div class="v-icon"><i class="fa fa-chevron-right"></i></div>
+            <div class="v-label wow fadeInRight">
+              <h4><%= (t 'cv.work_experience_first_company_name') %></h4>
+              <p><%= (t 'cv.work_experience_first') %></p>
             </div>
           </li>
           <li>
-            <time class="v-time wow fadeInLeft animated" data-wow-duration="0.7s" data-wow-delay="0.1s" datetime="2013-04-16 21:30" style="visibility: visible; -webkit-animation: fadeInLeft 0.7s 0.1s;"><span>2011 - 2013</span></time>
-            <div class="v-icon" data-toggle="collapse" data-target="#toggle-2"><i class="fa fa-plus"></i></div>
-            <div class="v-label wow fadeInRight animated" data-wow-duration="0.7s" data-wow-delay="0.1s" style="visibility: visible; -webkit-animation: fadeInRight 0.7s 0.1s;">
-              <h4><a href="#" data-toggle="collapse" data-target="#toggle-2">Sed ultricies</a></h4>
-              <p id="toggle-2" class="collapse">Arcu non pellentesque ultrices, dui risus feugiat enim, sed iaculis nunc mauris ac justo. Maecenas viverra eu felis a consectetur.</p>
+            <time class="v-time wow fadeInLeft"><span>Feb 2013 - Jan 2015</span></time>
+            <div class="v-icon"><i class="fa fa-chevron-right"></i></div>
+            <div class="v-label wow fadeInRight">
+              <h4><%= (t 'cv.work_experience_second_company_name') %></h4>
+              <p><%= (t 'cv.work_experience_second') %></p>
             </div>
           </li>
           <li>
-            <time class="v-time wow fadeInLeft animated" data-wow-duration="0.7s" data-wow-delay="0.2s" datetime="2013-04-17" style="visibility: visible; -webkit-animation: fadeInLeft 0.7s 0.2s;"><span>2010 - 2011</span></time>
-            <div class="v-icon" data-toggle="collapse" data-target="#toggle-3"><i class="fa fa-plus"></i></div>
-            <div class="v-label wow fadeInRight animated" data-wow-duration="0.7s" data-wow-delay="0.2s" style="visibility: visible; -webkit-animation: fadeInRight 0.7s 0.2s;">
-              <h4><a href="#" data-toggle="collapse" data-target="#toggle-3">Bibendum bibendum ultrices</a></h4>
-              <p id="toggle-3" class="collapse">Curabitur massa magna, lacinia vel condimentum eu, suscipit nec odio.</p>
+            <time class="v-time wow fadeInLeft"><span>Jul 2012 – Dec 2014</span></time>
+            <div class="v-icon"><i class="fa fa-chevron-right"></i></div>
+            <div class="v-label wow fadeInRight">
+              <h4><%= (t 'cv.work_experience_third_company_name') %></h4>
+              <p><%= (t 'cv.work_experience_third') %></p>
             </div>
           </li>
+          <h1>...</h1>
         </ul>
         <ul class="v-timeline mt50">
           <li>
-            <h3 class="v-heading wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0s" style="visibility: hidden; -webkit-animation: none 0.7s 0s;"><i class="fa fa-graduation-cap"></i> Education</h3>
+            <h3 class="v-heading wow fadeInDown"><i class="fa fa-graduation-cap"></i> <%= (t 'cv.education') %></h3>
           </li>
           <li>
-            <time class="v-time wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0.3s" datetime="2013-04-18" style="visibility: hidden; -webkit-animation: none 0.7s 0.3s;"><span>2008 - 2010</span></time>
-            <div class="v-icon" data-toggle="collapse" data-target="#toggle-4"><i class="fa fa-plus"></i></div>
-            <div class="v-label wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.3s" style="visibility: hidden; -webkit-animation: none 0.7s 0.3s;">
-              <h4><a href="#" data-toggle="collapse" data-target="#toggle-4">Morbi euismod convallis</a></h4>
-              <p id="toggle-4" class="collapse">Ut erat turpis, vestibulum eget dictum eu, gravida non sapien.  Morbi nunc lectus, rhoncus quis nisi nec, volutpat hendrerit arcu.</p>
+            <time class="v-time wow fadeInLeft"><span>2014</span></time>
+            <div class="v-icon"><i class="fa fa-chevron-right"></i></div>
+            <div class="v-label wow fadeInRight">
+              <h4><%= (t 'cv.education_second_speciality') %></h4>
+              <p><%= (t 'cv.education_first') %></p>
             </div>
           </li>
           <li>
-            <time class="v-time wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0.4s" datetime="2013-04-18" style="visibility: hidden; -webkit-animation: none 0.7s 0.4s;"><span>2005 - 2008</span></time>
-            <div class="v-icon" data-toggle="collapse" data-target="#toggle-5"><i class="fa fa-minus"></i></div>
-            <div class="v-label wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.4s" style="visibility: hidden; -webkit-animation: none 0.7s 0.4s;">
-              <h4><a href="#" data-toggle="collapse" data-target="#toggle-5">Cum sociis natoque</a></h4>
-              <p id="toggle-5" class="collapse in">Fusce mollis sem vitae massa rhoncus consectetur vitae nec odio. Aliquam sagittis commodo eros sit amet fringilla. In at dapibus massa, nec semper mi.</p>
+            <time class="v-time wow fadeInLeft"><span>2014</span></time>
+            <div class="v-icon"><i class="fa fa-chevron-right"></i></div>
+            <div class="v-label wow fadeInRight">
+              <h4><%= (t 'cv.education_first_speciality') %></h4>
+              <p><%= (t 'cv.education_first') %></p>
             </div>
           </li>
+          <li>
+            <time class="v-time wow fadeInLeft"><span>2007 - 2013</span></time>
+            <div class="v-icon"><i class="fa fa-chevron-right"></i></div>
+            <div class="v-label wow fadeInRight">
+              <h4><%= (t 'cv.education_last_speciality') %></h4>
+              <p><%= (t 'cv.education_last') %></p>
+            </div>
+          </li>
+          <h1>...</h1>
         </ul>
       </div>
     </div>
     <div align="center">
-      <%= link_to (I18n.t 'button.download') + ' ' + (I18n.t 'menu.cv'), root_path, class: "btn btn-theme-inverse" %>
+      <%= link_to (I18n.t 'button.download') + ' ' + (I18n.t 'cv.completed') + ' ' + (I18n.t 'menu.cv'), root_path, class: "btn btn-theme-inverse" %>
     </div>
 
   </div>
