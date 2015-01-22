@@ -6,16 +6,21 @@
         <div class="section-title-border"></div>
       </div>
     </div>
-<!--    <div class="row">
+<div class="row">
       <div class="col-sm-12 text-center wow fadeInDown animated" data-wow-duration="0.7s" data-wow-delay="0s" style="visibility: visible; -webkit-animation: fadeInDown 0.7s 0s;">
         <ul id="filter" class="list-inline filter-tags">
-          <li><a href="#" class="btn btn-sm btn-theme-inverse active" data-group="all">All</a></li>
+<!--          <li><a href="#" class="btn btn-sm btn-theme-inverse active" data-group="all">All</a></li>
           <li><a href="#" class="btn btn-sm btn-theme-inverse" data-group="branding">Branding</a></li>
           <li><a href="#" class="btn btn-sm btn-theme-inverse" data-group="web">Web</a></li>
-          <li><a href="#" class="btn btn-sm btn-theme-inverse" data-group="app">App</a></li>
+          <li><a href="#" class="btn btn-sm btn-theme-inverse" data-group="app">App</a></li>-->
+          <li><%= link_to (I18n.t 'menu.sites'), more_sites_path, class: "btn btn-sm btn-theme-inverse" %></li>
+          <li class="divider"></li>
+          <li><%= link_to (I18n.t 'menu.saas_solution'), more_saas_projects_path, class: "btn btn-sm btn-theme-inverse" %></li>
+          <li class="divider"></li>
+          <li><%= link_to (I18n.t 'menu.mobile_projects'), mobile_projects_path, class: "btn btn-sm btn-theme-inverse" %></li>
         </ul>
       </div>
-    </div>-->
+    </div>
   </div>
 
   <%= render 'static_pages/sites' %>
