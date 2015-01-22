@@ -1,4 +1,4 @@
-<section id="contact" class="section">
+<section class="section"  id="contact" name="contact" >
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
@@ -17,7 +17,7 @@
             <%= image_tag("ua.png", alt: "UA", style: "margin-top: -4px; margin-left:10px;", title: "My phone number in Ukraine")%>
           </div>
           <div class="media-body smallFontBy08">
-            <a href="tel:+380974147141"><%= (t 'contacts.phone_c') %></a>
+            <a href="tel:+380974147141"><%= (t 'contacts.phone_ua') %></a>
           </div>
         </div>
         <div class="media">
@@ -26,7 +26,7 @@
             <%= image_tag("nz.png", alt: "NZ", style: "margin-top: -4px; margin-left:10px;", title: "My phone number in New Zealand")%>
           </div>
           <div class="media-body smallFontBy08">
-            <a href="tel:+"><%= (t 'contacts.phone_c') %></a>
+            <a href="tel:+"><%= (t 'contacts.phone_nz') %></a>
           </div>
         </div>
         <div class="media">
@@ -63,8 +63,9 @@
       <div class="col-md-4">
         <div class="span5 offset1">
           <h3><%= (t 'contact.say_hello') %></h3>
-          <%= (t 'contact.general') %></br>
-                Copyright © 2014. All rights reserved.
+          <%= (t 'contact.general') %>
+          <p></p>
+          <p>Copyright © 2014. All rights reserved.</p>
           </div>
       </div>
     </div>
