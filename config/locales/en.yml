@@ -27,6 +27,9 @@ en:
     start_teleporting_today: "We create the best Ruby On Rails sites and projects"
     small_about: "We develop perfect sites and SaaS projects using Ruby On Rails. Our company creates projects for startups, e-commerce, small business solutions and many others."
   menu:
+    about: "About"
+    cv: "CV"
+    portfolio: "Portfolio"
     team: "Team"
     whom_is_our_service_for: "Projects"
     sites: "Sites"
@@ -67,6 +70,7 @@ en:
     edit: "Edit"
     ok: "OK"
     back: "Back"
+    download: "Download"
   user:
     all_users: "All users"
     name: "Name"

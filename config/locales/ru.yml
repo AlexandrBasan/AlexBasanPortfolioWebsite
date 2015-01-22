@@ -27,6 +27,9 @@ ru:
     start_teleporting_today: "Мы создаем лучшие проекты на Ruby On Rails"
     small_about: "Мы разрабатываем качественные сайты и SaaS решения используя Ruby On Rails. Мы создали множество решений для стартапов, проектов электронной коммерции, малого бизнеса и многие другие."
   menu:
+    about: "Обо мне"
+    cv: "Резюме"
+    portfolio: "Portfolio"
     team: "Наша команда"
     whom_is_our_service_for: "Наши проекты"
     sites: "Сайты"
@@ -67,6 +70,7 @@ ru:
     edit: "Редактировать"
     ok: "OK"
     back: "Назад"
+    download: "Скачать"
   user:
     all_users: "Все пользователи"
     name: "Имя"
