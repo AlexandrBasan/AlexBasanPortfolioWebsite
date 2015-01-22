@@ -10,11 +10,13 @@
     <%= csrf_meta_tags %>
     <%= render 'layouts/shim' %>
     <%= favicon_link_tag 'bl_16_16.png' %>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $("#myCarousel").carousel({
-                interval : 5000,
-                pause: false
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="jquery.counterup.min.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
             });
         });
     </script>

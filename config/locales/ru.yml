@@ -46,6 +46,8 @@ ru:
     about_us_f: "О НАС"
     contact_us_f: "КОНТАКТЫ"
   contact:
+    name: "Alexandr Basan"
+    objective: "Web Developer / Software Developer / Project manager / CEO / CTO"
     get_social: "Мы в социальных сетях"
     say_hello: "Свяжитесь с нами!"
     contact: "Контакты"
@@ -194,3 +196,14 @@ ru:
     skills: "Skills"
     header: "Short"
     information: "I am efficient and highly motivated individual with 11+ years working experience in the IT Industry."
+  cv:
+    education: "Education"
+    work_experience: "Work experience"
+  facts:
+    one: "work experience"
+    two: "projects management experience"
+    three: "web development experience"
+    for: "created startups"
+    five: "web and mobile projects"
+    years: "years of"
+    year: "year of"

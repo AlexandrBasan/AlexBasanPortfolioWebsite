@@ -41,10 +41,12 @@ en:
     more_sites: "More sites..."
     developers: "Hire your Ruby developer"
     blog: "Блог"
-    contact_us: "Contact us"
+    contact_us: "Contact"
     language: "Language"
-    contact_us_f: "CONTACT US"
+    contact_us_f: "CONTACT"
   contact:
+    name: "Alexandr Basan"
+    objective: "Web Developer / Software Developer / Project manager / CEO / CTO"
     get_social: "Get social"
     say_hello: "Say hello!"
     contact: "Contact us"
@@ -196,4 +198,12 @@ en:
   cv:
     education: "Education"
     work_experience: "Work experience"
+  facts:
+    one: "work experience"
+    two: "projects management experience"
+    three: "web development experience"
+    for: "created startups"
+    five: "web and mobile projects"
+    years: "years of"
+    year: "year of"
 
