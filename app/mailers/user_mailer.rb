@@ -17,7 +17,7 @@ class UserMailer < ActionMailer::Base
     @contact = contact
     #mail(to: Proc.new { User.where(admin: true).pluck(:email) },
     mail(to: 'alexandr.basan@gmail.com',
-         subject: 'ProaLab Rails',
+         subject: 'Alex Basan site',
          template_path: 'user_mailer',
          template_name: 'contacts')
   end

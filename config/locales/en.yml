@@ -50,6 +50,7 @@ en:
     contact: "Contact us"
     contact_text: "We like to create things with fun, open-minded people. Feel free to say hello! We'll respond as soon as
                     possible."
+    general: "I like to create things and communicate with fun, open-minded people. Feel free to say hello! I'll respond as soon as possible."
   blog:
     categories: "Categories"
     created_at: "Created at"
@@ -192,4 +193,7 @@ en:
     skills: "Skills"
     header: "Short"
     information: "I am efficient and highly motivated individual with 11+ years working experience in the IT Industry."
+  cv:
+    education: "Education"
+    work_experience: "Work experience"
 

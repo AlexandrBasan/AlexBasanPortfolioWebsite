@@ -50,6 +50,7 @@ ru:
     say_hello: "Свяжитесь с нами!"
     contact: "Контакты"
     contact_text: "Если Вы хотите качественный и красивый сайт на Ruby On Rails или всегда мечтали о собственном стартапе - Напишите нам."
+    general: "I like to create things and communicate with fun, open-minded people. Feel free to say hello! I'll respond as soon as possible."
   blog:
     categories: "Категории"
     created_at: "Created at"
