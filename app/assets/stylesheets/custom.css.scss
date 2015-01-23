@@ -455,19 +455,25 @@ html, body {
   background-image: none;
 }
 
-.mackbook {
+.mackbook_image {
   width: 375px;
-  height: 230px;
-  margin-top: -272px;
-  margin-left: 62px;
+  height: 221px;
+  z-index: 999;
+}
+
+.mackbook {
+  width: 280px;
+  height: 172px;
+  margin-top: -204px;
+  margin-left: 48px;
 }
 
 .mackbook_center {
-  width: 375px;
-  height: 230px;
-  margin-top: -272px;
+  width: 280px;
+  height: 172px;
+  margin-top: -204px;
   /* margin-left: 62px; */
-  margin-left: 382px;
+  margin-left: 345px;
 
 }
 
@@ -661,7 +667,7 @@ h4 {
   color: #000!important; }
 
 .mackbook_center {
-  margin-left: 299px!important;
+  margin-left: 345px!important;
 }
 
 div#more_saas_projects{color: #000;}
