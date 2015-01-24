@@ -20,6 +20,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  site_name: "Alex Basan Website"
   not_found: "-"
   full_site: "Full site"
   mobile_site: "Mobile site"
@@ -208,4 +209,5 @@ en:
     five: "web and mobile projects"
     years: "years of"
     year: "year of"
+    completed: "completed"
 
