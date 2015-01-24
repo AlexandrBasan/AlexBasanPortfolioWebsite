@@ -477,6 +477,20 @@ html, body {
 
 }
 
+.portfolio_name
+{
+  text-align: center;
+//  padding-bottom:10px;
+  border-bottom: solid 1px lightgray;
+  visibility: hidden;
+  margin-top: -60px;
+}
+
+.portfolio_project_information {
+  visibility: hidden;
+  margin-top: -340px;
+}
+
 /* CEO text hight */
 .hidBlock {
   position: fixed;
@@ -587,6 +601,7 @@ a.btn.btn-1.btn-xs.btn-success.signup {
   border-top: 3px solid #000000;
   color: #000000;
   outline: none;
+  visibility: hidden;
 }
 
 .btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open > .btn-success.dropdown-toggle {

@@ -20,16 +20,15 @@
           <li><%= link_to (I18n.t 'menu.mobile_projects'), mobile_projects_path, class: "btn btn-sm btn-theme-inverse" %></li>
         </ul>
       </div>
-    </div>
+  <div class="col-sm-12" id="portfolio_result">
   </div>
-  <div class="row">
-    <div class="col-md-6">
-      <%= render 'static_pages/sites' %>
-      </div>
-    <div class="col-md-6">
-      <%= render 'static_pages/saas' %>
-    </div>
-    </div>
-
-
+  <h5 class="section-title"><%= t ('content.latest_projects') %></h5>
+  <div class="col-sm-12">
+    <%= render 'static_pages/sites' %>
+  </div>
+  <div class="col-sm-12">
+    <%= render 'static_pages/saas' %>
+  </div>
+</div>
+  </div>
 </section>
