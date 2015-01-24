@@ -7,19 +7,7 @@
       </div>
     </div>
 <div class="row">
-      <div class="col-sm-12 text-center wow fadeInDown animated" data-wow-duration="0.7s" data-wow-delay="0s" style="visibility: visible; -webkit-animation: fadeInDown 0.7s 0s;">
-        <ul id="filter" class="list-inline filter-tags">
-<!--          <li><a href="#" class="btn btn-sm btn-theme-inverse active" data-group="all">All</a></li>
-          <li><a href="#" class="btn btn-sm btn-theme-inverse" data-group="branding">Branding</a></li>
-          <li><a href="#" class="btn btn-sm btn-theme-inverse" data-group="web">Web</a></li>
-          <li><a href="#" class="btn btn-sm btn-theme-inverse" data-group="app">App</a></li>-->
-          <li><%= link_to (I18n.t 'menu.sites'), more_sites_path, remote: true, class: "btn btn-sm btn-theme-inverse" %></li>
-          <li class="divider"></li>
-          <li><%= link_to (I18n.t 'menu.saas_solution'), more_saas_projects_path, remote: true, class: "btn btn-sm btn-theme-inverse" %></li>
-          <li class="divider"></li>
-          <li><%= link_to (I18n.t 'menu.mobile_projects'), mobile_projects_path, remote: true, class: "btn btn-sm btn-theme-inverse" %></li>
-        </ul>
-      </div>
+  <%= render 'static_pages/portfolio_view_more' %>
   <div class="col-sm-12" id="portfolio_result">
   </div>
   <h5 class="section-title"><%= t ('content.latest_projects') %></h5>
@@ -29,6 +17,8 @@
   <div class="col-sm-12">
     <%= render 'static_pages/saas' %>
   </div>
+  <h5 class="section-title"><%= t ('content.view_more_projects') %>...</h5>
+  <%= render 'static_pages/portfolio_view_more' %>
 </div>
   </div>
 </section>
