@@ -35,43 +35,31 @@ xml.instruct!
           xml.priority 1.0
         end
         xml.url do
-          xml.loc "#{root_url}#about_us"
+          xml.loc "#{root_url}#about"
           xml.lastmod Time.now.to_date
           xml.changefreq "monthly"
           xml.priority 1.0
         end
         xml.url do
-          xml.loc "#{root_url}#contact_us"
+          xml.loc "#{root_url}#contact"
           xml.lastmod Time.now.to_date
           xml.changefreq "monthly"
           xml.priority 1.0
         end
         xml.url do
-          xml.loc "#{root_url}more_sites"
+          xml.loc "#{root_url}skills"
           xml.lastmod Time.now.to_date
           xml.changefreq "monthly"
           xml.priority 1.0
         end
         xml.url do
-          xml.loc "#{root_url}mobile_projects"
+          xml.loc "#{root_url}cv"
           xml.lastmod Time.now.to_date
           xml.changefreq "monthly"
           xml.priority 1.0
         end
         xml.url do
-          xml.loc "#{root_url}more_saas_projects"
-          xml.lastmod Time.now.to_date
-          xml.changefreq "monthly"
-          xml.priority 1.0
-        end
-        xml.url do
-          xml.loc "#{root_url}developers"
-          xml.lastmod Time.now.to_date
-          xml.changefreq "monthly"
-          xml.priority 1.0
-        end
-        xml.url do
-          xml.loc "#{root_url}technologies"
+          xml.loc "#{root_url}portfolio"
           xml.lastmod Time.now.to_date
           xml.changefreq "monthly"
           xml.priority 1.0
@@ -86,43 +74,31 @@ xml.instruct!
           xml.priority 1.0
         end
         xml.url do
-          xml.loc "#{root_url(locale: :ru)}#about_us"
+          xml.loc "#{root_url(locale: :ru)}#about"
           xml.lastmod Time.now.to_date
           xml.changefreq "monthly"
           xml.priority 1.0
         end
         xml.url do
-          xml.loc "#{root_url(locale: :ru)}#contact_us"
+          xml.loc "#{root_url(locale: :ru)}#contact"
           xml.lastmod Time.now.to_date
           xml.changefreq "monthly"
           xml.priority 1.0
         end
         xml.url do
-          xml.loc "#{root_url(locale: :ru)}more_sites"
+          xml.loc "#{root_url(locale: :ru)}skills"
           xml.lastmod Time.now.to_date
           xml.changefreq "monthly"
           xml.priority 1.0
         end
         xml.url do
-          xml.loc "#{root_url(locale: :ru)}mobile_projects"
+          xml.loc "#{root_url(locale: :ru)}cv"
           xml.lastmod Time.now.to_date
           xml.changefreq "monthly"
           xml.priority 1.0
         end
         xml.url do
-          xml.loc "#{root_url(locale: :ru)}more_saas_projects"
-          xml.lastmod Time.now.to_date
-          xml.changefreq "monthly"
-          xml.priority 1.0
-        end
-        xml.url do
-          xml.loc "#{root_url(locale: :ru)}developers"
-          xml.lastmod Time.now.to_date
-          xml.changefreq "monthly"
-          xml.priority 1.0
-        end
-        xml.url do
-          xml.loc "#{root_url(locale: :ru)}technologies"
+          xml.loc "#{root_url(locale: :ru)}portfolio"
           xml.lastmod Time.now.to_date
           xml.changefreq "monthly"
           xml.priority 1.0

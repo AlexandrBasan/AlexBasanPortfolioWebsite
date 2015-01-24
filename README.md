@@ -1,4 +1,4 @@
-# Alexandr Basan Porfolio Site
+# Alexandr Basan Porfolio website
 
     $ cd /tmp
     $ git clone https://github.com/railstutorial/proalab_rails.git
