@@ -7,11 +7,26 @@ class StaticPagesController < ApplicationController
   end
 
   def mobile_projects
+    respond_to do |format|
+        format.html
+        format.json
+        format.js
+      end
   end
 
   def more_sites
+    respond_to do |format|
+      format.html
+      format.json
+      format.js
+    end
   end
 
   def more_saas_projects
+    respond_to do |format|
+      format.html
+      format.json
+      format.js
+    end
   end
 end
