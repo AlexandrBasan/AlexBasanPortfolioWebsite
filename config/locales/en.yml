@@ -25,19 +25,19 @@ en:
   full_site: "Full site"
   mobile_site: "Mobile site"
   main:
-    start_teleporting_today: "We create the best Ruby On Rails sites and projects"
-    small_about: "We develop perfect sites and SaaS projects using Ruby On Rails. Our company creates projects for startups, e-commerce, small business solutions and many others."
+    start_teleporting_today: "We create the best Ruby On Rails websites and projects"
+    small_about: "We develop perfect websites and SaaS projects using Ruby On Rails. Our company creates projects for startups, e-commerce, small business solutions and many others."
   menu:
     about: "About"
     cv: "CV"
     portfolio: "Portfolio"
     team: "Team"
     whom_is_our_service_for: "Projects"
-    sites: "Sites"
+    sites: "Websites"
     saas_solution: "SaaS Solutions"
     mobile_projects: "Mobile projects"
     more_projects: "More projects..."
-    more_sites: "More sites..."
+    more_sites: "More websites..."
     developers: "Hire your Ruby developer"
     blog: "Blog"
     contact_us: "Contact"
@@ -135,9 +135,11 @@ en:
     teleport_info: "Teleport Delivery Service - opens new opportunities for logistics, e-commerce and supply management."
     law_assistant: "www.law-assistant.com"
     law_assistant_info: "Law Assistant is a grate project in law, bookkeeping and IT outsourcing."
-    our_latest_sites: "Our latest sites"
+    our_latest_sites: "Our latest websites"
     medical_records_info: "Cloud based service that allows people to store their medical and health records online and easily share them with doctors."
     dent_saas_info: "This is service is a powerful, web-based dental practice management software application, which can be configured to the needs of any type of dental practice."
+    alex_basan_portfolio: "My personal site"
+    proalab_about: "Company develop perfect websites and SaaS projects using Ruby On Rails. Company creates projects for startups, e-commerce, small business solutions and many others."
   mobile_projects:
     our_latest_mobile_projects: "Our latest mobile projects"
   technology:
@@ -178,7 +180,7 @@ en:
     capybara: "Capybara"
     factory_girl: "Factory girl"
   content:
-    tags: "Ruby, Ruby on Rails, Rails, sites on ruby on rails, sites on rails, saas on rails, saas on ruby on rails, rails programmers, rails projects, proalab, alexandr basan, ruby projects, ruby on rails projects, ruby developers, rails developers, rails e-commerce, ruby developer pay by hour, rails developer pay by hour, ruby developer for project, rails developer for project, rental Ruby developer, rental Rails Developer, TOP Ruby On Rails developers, hire ruby developer, hire rails developer"
+    tags: "Ruby, Ruby on Rails, Rails, websites on ruby on rails, websites on rails, saas on rails, saas on ruby on rails, rails programmers, rails projects, proalab, alexandr basan, ruby projects, ruby on rails projects, ruby developers, rails developers, rails e-commerce, ruby developer pay by hour, rails developer pay by hour, ruby developer for project, rails developer for project, rental Ruby developer, rental Rails Developer, TOP Ruby On Rails developers, hire ruby developer, hire rails developer"
     latest_projects: "My latest projects"
     view_more_projects: "View more projects"
   skills:

@@ -14,7 +14,7 @@ SampleApp::Application.routes.draw do
   resources :blogs
   root to: 'static_pages#home'
   match '/mobile_projects', to: 'static_pages#mobile_projects', via: 'get'
-  match '/more_sites', to: 'static_pages#more_sites', via: 'get'
+  match '/more_websites', to: 'static_pages#more_websites', via: 'get'
   match '/more_saas_projects', to: 'static_pages#more_saas_projects', via: 'get'
   match '/signup',  to: 'users#new',            via: 'get'
   match '/signin',  to: 'sessions#new',         via: 'get'

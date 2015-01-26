@@ -14,7 +14,7 @@ class StaticPagesController < ApplicationController
       end
   end
 
-  def more_sites
+  def more_websites
     respond_to do |format|
       format.html
       format.json
