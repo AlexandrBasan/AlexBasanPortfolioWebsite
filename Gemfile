@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.1.0'
+ruby '2.1.5'
 #ruby-gemset=alexandr_basan_portfolio_site
 
 gem 'rails', '4.1.5'
