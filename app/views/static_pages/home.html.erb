@@ -40,3 +40,9 @@
         document.getElementById('portrait').click();
     }
 </script>
+<script>
+    $(window).bind('orientationchange', function(event) {
+        //alert('new orientation:' + event.orientation);
+        location.reload(true);
+    });
+</script>
