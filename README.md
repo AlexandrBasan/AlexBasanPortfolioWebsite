@@ -47,3 +47,12 @@ Heroku
     $ heroku rake db:migrate
     $ heroku restart
     $ heroku open
+
+
+After Update Ruby
+
+    $ rvm use 2.1.5
+    $ bundle install
+    $ bundle install --without production
+    $ gem install heroku
+
