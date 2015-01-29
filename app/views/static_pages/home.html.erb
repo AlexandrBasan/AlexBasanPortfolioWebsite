@@ -14,3 +14,29 @@
 </div>
 <!--Contact us-->
 <%= render 'static_pages/contacts' %>
+
+
+
+<button style="visibility: hidden;" id="portrait" type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-modal-sm">Small modal</button>
+<!-- Modal -->
+<div style="padding-top: 10%;" class="modal fade bs-modal-sm" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">You are in portrait orientation!</h4>
+      </div>
+      <div class="modal-body">
+        <h2 style="color: #000000;">For better view turn your device in landscape orientation.</h2>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+    if(window.innerHeight > window.innerWidth){
+        //alert("Please use Landscape!");
+        $('#main_block_background_image').hide();
+        $('#portfolio').hide();
+        document.getElementById('portrait').click();
+    }
+</script>
