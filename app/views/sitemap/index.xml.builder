@@ -47,19 +47,19 @@ xml.instruct!
           xml.priority 1.0
         end
         xml.url do
-          xml.loc "#{root_url}skills"
+          xml.loc "#{root_url}#skills"
           xml.lastmod Time.now.to_date
           xml.changefreq "monthly"
           xml.priority 1.0
         end
         xml.url do
-          xml.loc "#{root_url}cv"
+          xml.loc "#{root_url}#cv"
           xml.lastmod Time.now.to_date
           xml.changefreq "monthly"
           xml.priority 1.0
         end
         xml.url do
-          xml.loc "#{root_url}portfolio"
+          xml.loc "#{root_url}#portfolio"
           xml.lastmod Time.now.to_date
           xml.changefreq "monthly"
           xml.priority 1.0
@@ -86,19 +86,19 @@ xml.instruct!
           xml.priority 1.0
         end
         xml.url do
-          xml.loc "#{root_url(locale: :ru)}skills"
+          xml.loc "#{root_url(locale: :ru)}#skills"
           xml.lastmod Time.now.to_date
           xml.changefreq "monthly"
           xml.priority 1.0
         end
         xml.url do
-          xml.loc "#{root_url(locale: :ru)}cv"
+          xml.loc "#{root_url(locale: :ru)}#cv"
           xml.lastmod Time.now.to_date
           xml.changefreq "monthly"
           xml.priority 1.0
         end
         xml.url do
-          xml.loc "#{root_url(locale: :ru)}portfolio"
+          xml.loc "#{root_url(locale: :ru)}#portfolio"
           xml.lastmod Time.now.to_date
           xml.changefreq "monthly"
           xml.priority 1.0
