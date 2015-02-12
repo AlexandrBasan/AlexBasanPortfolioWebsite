@@ -20,7 +20,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  site_name: "Alex Basan Website"
+  site_name: "Alexandr Basan Website"
   not_found: "-"
   full_site: "Full site"
   mobile_site: "Mobile site"
