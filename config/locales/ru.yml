@@ -144,7 +144,7 @@ ru:
   mobile_projects:
     our_latest_mobile_projects: "Our latest mobile projects"
   technology:
-    all: "I use following technologies: Ruby, Rails, Bootstrap, Metro UI CSS 2.0, JavaScript, Ajax, Jquery, AngularJS, BackboneJS, CoffeeScript, I18n, PostgreSQL, MySQL, Heroku, Amazon S3, Google Maps API v.3, Facebook API, Twitter API, Google API, Google Currency API, New Relic Server Monitoring, Node JS, Microsoft MSDN, RSpec, Capybara."
+    all: "I use following technologies: Ruby, Rails, Bootstrap, Metro UI CSS 2.0, Font Awesome, JavaScript, Ajax, Jquery, AngularJS, BackboneJS, CoffeeScript, I18n, PostgreSQL, MySQL, Heroku, Amazon S3, Google Maps API v.3, Facebook API, Twitter API, Google API, Google Currency API, New Relic Server Monitoring, Node JS, Microsoft MSDN, RSpec, Capybara, Cucumber, Factory girl."
     technologies: "Технологии:"
     tech: "Технологии которые мы используем"
     ruby: "Ruby 2.1.0"
