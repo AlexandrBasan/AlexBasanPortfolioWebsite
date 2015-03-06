@@ -64,6 +64,24 @@ xml.instruct!
           xml.changefreq "monthly"
           xml.priority 1.0
         end
+        xml.url do
+          xml.loc "#{root_url}more_websites"
+          xml.lastmod Time.now.to_date
+          xml.changefreq "monthly"
+          xml.priority 1.0
+        end
+        xml.url do
+          xml.loc "#{root_url}more_saas_projects"
+          xml.lastmod Time.now.to_date
+          xml.changefreq "monthly"
+          xml.priority 1.0
+        end
+        xml.url do
+          xml.loc "#{root_url}mobile_projects"
+          xml.lastmod Time.now.to_date
+          xml.changefreq "monthly"
+          xml.priority 1.0
+        end
         # Name links
 
         # ru locales
